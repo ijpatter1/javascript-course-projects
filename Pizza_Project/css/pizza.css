@@ -1,0 +1,80 @@
+body {
+    margin: 0px;
+}
+.gradient {
+    background-color: #fff;
+    background-image: linear-gradient(to right,#73ffb3,whitesmoke,#ff6347)
+}
+.heading {
+    margin:auto;
+    width: 300px;
+    text-align: center;
+}
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black
+}
+h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+div {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+#menuBG {
+    width:800px;
+    height:470px;
+    margin:10px auto;
+}
+#frmMenu {
+    width:600px;
+    height:200px;
+    margin: auto;
+}
+#totalPrice {
+    width:200px;
+    height:190px;
+    margin:0 auto;
+    float:right;
+}
+.menu {
+    width:200px;
+    height:200px;
+    margin:auto;
+    float:left;
+}
+/* .left {
+    width:200px;
+    height:200px;
+    float:left;
+}
+.right {
+    width:200px;
+    height:200px;
+    float:left;
+} */
+#showText {
+    width:200px;
+    height:190px;
+    margin: 0px auto;
+    float:left;
+}
+#cart {
+    top:0;margin:0px auto;
+    width:400px;
+    height:200px;
+}
+#btnOrder {
+    background-color: lightgray;
+    box-sizing: border-box;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px auto 20px auto;
+    display: block;
+    width: 150px;
+    font-size: 16px;
+}
