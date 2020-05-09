@@ -41,8 +41,8 @@ function getVeg(runningTotal,text1) {
         }
     }
     var vegCount = selectedVeg.length;
-    if (vegCount > 3) {
-        vegTotal = (vegCount - 3);
+    if (vegCount > 1) {
+        vegTotal = (vegCount - 1);
     } else {
         vegTotal = 0;
     }
