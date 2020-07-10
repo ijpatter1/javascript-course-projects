@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+        <p id="XML_Example"></p>
+        <script>
+            var XML_Parser, XML_Document;
+            // creates a text string
+            var Movie = "<book>" +
+                "<title>Harry Potter and the Philosopher\'s Stone</title>" +
+                "<author>J.K. Rowling</author>" +
+                "<publisher>Bloomsbury</publisher>" +
+                "<date>26th June 1997</date>" +
+                "</book>";
+            //creates a XML DOM parser
+            var XML_Parser = new DOMParser();
+            //creates a new XML DOM object using the text string
+            XML_Document = XML_Parser.parseFromString(Movie,"text/xml");
+
+            document.getElementById("XML_Example").innerHTML = 
+            XML_Document.getElementsByTagName("publisher")[0].childNodes[0].nodeValue;
+        </script>
+    </body>
+</html>
